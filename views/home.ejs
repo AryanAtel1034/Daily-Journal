@@ -1,0 +1,19 @@
+
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p><%= firstPara %> </p>
+
+
+
+    
+    <h1>
+        <%=  new_compose_title %> 
+     </h1>
+     <p><%=  new_compose_para.substring(0,100)+"..."   %>  <a href="/posts/<%= new_compose_title %> ">read more</a></p>
+
+
+     
+
+
+<%- include("partials/footer"); -%>
